@@ -1,3 +1,42 @@
+.pm-panel, .pm-panel-placeholder { min-width: 420px; }
+.userlist_owner {color:#660066!important;}
+
+.channel-emote {
+    max-height: 90px;
+    max-width: 200px;
+
+}
+.image-embed-tiny   { max-height: 112px; max-width: 55%; }
+.image-embed-small  { max-height: 150px; max-width: 55%; }
+.image-embed-medium { max-height: 240px; max-width: 360px; }
+.image-embed-large  { max-height: 320px;  max-width: 66%; }
+
+#userlist {
+    min-width: 70px;
+    width: initial;
+}
+.motd-master {
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.motd-master > div {
+	flex: 1;
+}
+.icon {
+	max-height: 24px;
+	vertical-align: middle;
+	float: left;
+}
+body {
+    background-image: url(https://i.imgur.com/UkXihEY.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: left top;
+    background-attachment: fixed;
+}
 #colorpopup .colorbtn[data-color=null] {
   background: repeating-linear-gradient(
   45deg,
